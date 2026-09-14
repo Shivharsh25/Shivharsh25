@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Typing Banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Shivharsh+Tiwari+%F0%9F%91%8B;MERN+Stack+Developer;DSA+Enthusiast+%7C+353%2B+LeetCode+Problems;Building+Ideas+into+Web+Apps+%F0%9F%9A%80" alt="Typing Banner" />
+<!-- Permanent Name Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,50:2563eb,100:38bdf8&height=220&section=header&text=Shivharsh%20Tiwari&fontSize=58&fontColor=FFFFFF&fontAlignY=40&fontAlign=50&desc=MERN%20Stack%20Developer%20%E2%80%A2%20DSA%20Enthusiast%20%E2%80%A2%20B.Tech%20CSE%20(Data%20Science)&descAlignY=62&descSize=17&descColor=E0F2FE&animation=fadeIn" alt="Shivharsh Tiwari" width="100%" />
 
 <!-- Profile Views + Visitor Badges -->
 <p>
@@ -175,11 +175,74 @@ Supabase    ██████████████░░░░░░░░  
 
 ---
 
-## 📅 Coding Activity
+## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivharsh25&theme=tokyo-night&hide_border=true&area=true" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shivharsh25/Shivharsh25/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shivharsh25/Shivharsh25/output/github-snake.svg" />
+    <img alt="github contribution snake" src="https://raw.githubusercontent.com/Shivharsh25/Shivharsh25/output/github-snake.svg" />
+  </picture>
 </p>
+
+<!-- ============================================================
+  🐍 SNAKE SETUP — ONE-TIME STEPS (delete this comment block after setup)
+
+  STEP 1 — Make sure your profile repo exists
+    Go to github.com/new
+    Name it exactly: Shivharsh25  (same as your username)
+    Make it Public, tick "Add a README file", then Create repository
+
+  STEP 2 — Create the workflow file
+    Inside that repo, create this file at exactly this path:
+      .github/workflows/snake.yml
+    Paste the content below (everything between the triple backticks):
+
+    ```yaml
+    name: Generate Snake
+
+    on:
+      schedule:
+        - cron: "0 0 * * *"
+      workflow_dispatch:
+
+    permissions:
+      contents: write
+
+    jobs:
+      generate:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Generate snake animation
+            uses: Platane/snk@v3
+            with:
+              github_user_name: Shivharsh25
+              outputs: |
+                dist/github-snake.svg
+                dist/github-snake-dark.svg?palette=github-dark
+
+          - name: Push to output branch
+            uses: crazy-max/ghaction-github-pages@v3
+            with:
+              target_branch: output
+              build_dir: dist
+            env:
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    ```
+
+  STEP 3 — Run it manually the first time
+    In your profile repo → click the "Actions" tab
+    Click "Generate Snake" in the left sidebar
+    Click "Run workflow" → "Run workflow" (green button)
+    Wait ~30 seconds for it to finish
+
+  STEP 4 — Done!
+    The snake SVGs are now at:
+      https://raw.githubusercontent.com/Shivharsh25/Shivharsh25/output/github-snake.svg
+      https://raw.githubusercontent.com/Shivharsh25/Shivharsh25/output/github-snake-dark.svg
+    The snake will auto-regenerate every day at midnight via the cron schedule.
+    The image above in this README will show it automatically.
+============================================================ -->
 
 ---
 
@@ -249,3 +312,5 @@ If you're working on something interesting in **full-stack web development** or 
 <div align="center">
   <sub>⭐ If you find my work interesting, feel free to star a repository or drop a connection!</sub>
 </div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,50:2563eb,100:1e3a5f&height=120&section=footer&animation=fadeIn" alt="footer" width="100%" />
